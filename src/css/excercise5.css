@@ -44,3 +44,68 @@
     align-items: center;
     justify-content: center;
 }
+/* part3 */
+.part3 {
+    margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+/* Header màu cam */
+.website-header {
+    background-color: #f28c28;
+    min-height: 185px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Logo */
+.website-header img {
+    width: 360px;
+    height: 155px;
+    object-fit: contain;
+    background-color: white;
+}
+
+/* Menu */
+.website-header .nav {
+    margin-top: 0;
+}
+
+.website-header .nav-link {
+    color: white;
+    padding: 2px 5px;
+}
+
+/* Nội dung */
+.website-content {
+    text-align: center;
+    padding: 20px 0;
+}
+
+.website-content section {
+    margin-bottom: 15px;
+}
+
+.website-content h2 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-bottom: 12px;
+}
+
+.website-content p {
+    font-size: 14px;
+}
+
+/* Footer */
+.website-footer {
+    background-color: #f5cc7a;
+    color: white;
+    text-align: center;
+
+    padding: 20px;
+
+    margin-top: 20px;
+}

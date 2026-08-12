@@ -65,7 +65,42 @@ function Excercise5() {
                     </Col>
                 </Row>
             </div>
+            <div className="part3">
 
+                <div className="website-header">
+                    <img src="/images/excercise5/fpt.jpg" />
+
+                    <Nav>
+                        <Nav.Link href="#">Home</Nav.Link>
+                        <Nav.Link href="#">About</Nav.Link>
+                        <Nav.Link href="#">Contact</Nav.Link>
+                    </Nav>
+                </div>
+
+                <div className="website-content">
+
+                    <section>
+                        <h2>About</h2>
+                        <p>
+                            This is the about section of the website.
+                        </p>
+                    </section>
+
+                    <section>
+                        <h2>Contact</h2>
+                        <p>
+                            For any inquiries, please contact us at
+                            example@example.com.
+                        </p>
+                    </section>
+
+                </div>
+
+                <footer className="website-footer">
+                    © 2023 Website. All rights reserved.
+                </footer>
+
+            </div>
         </Container>
     );
 }
