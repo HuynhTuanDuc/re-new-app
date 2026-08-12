@@ -6,7 +6,8 @@ import Slot1 from './excercise/Slot1';
 import Slot2 from './excercise/Slot2';
 import Slot3 from './excercise/Slot3';
 import Excercise5 from './excercise/Excercise5';
-import Excercise6 from './excercise/Excercise5';
+import Excercise6 from './excercise/Excercise6';
+import Excercise7 from './excercise/Excercise7';
 import Excercise10 from './excercise/Excercise10';
 import {useNavigate} from 'react-router-dom';
 
@@ -35,6 +36,10 @@ function App() {
         Excercise 6
       </button>
       <button
+      onClick ={() => {navigate('/Excercise7')}}>
+        Excercise 7
+      </button>
+      <button
       onClick ={() => {navigate('/Excercise10')}}>
         Excercise 10
       </button>
@@ -48,6 +53,7 @@ function App() {
         <Route path="/excercise10" element={<Excercise10/>}/>
         <Route path="/excercise5" element={<Excercise5/>}/>
         <Route path="/excercise6" element={<Excercise6/>}/>
+        <Route path="/excercise7" element={<Excercise7/>}/>
       </Routes>
     </div>
   );

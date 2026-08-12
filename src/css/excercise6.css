@@ -1,0 +1,154 @@
+.exercise6 {
+    min-height: 100vh;
+    background-color: white;
+}
+
+
+/* NAVBAR */
+
+.exercise6 .navbar {
+    min-height: 60px;
+}
+
+.exercise6 .navbar-brand {
+    font-weight: 500;
+}
+
+.exercise6 .navbar .dropdown-toggle {
+    border: none;
+}
+
+
+/* CAROUSEL */
+
+.product-carousel {
+    width: 100%;
+}
+
+.carousel-placeholder {
+    height: 530px;
+    background-color: #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+}
+
+.carousel-placeholder h1 {
+    font-size: 70px;
+    font-weight: 300;
+}
+
+
+/* PRODUCT SECTION */
+
+.product-section {
+    padding-top: 25px;
+    padding-bottom: 40px;
+}
+
+.product-section h2 {
+    font-size: 24px;
+    font-weight: 400;
+    margin-bottom: 2px;
+}
+
+.product-description {
+    color: #999;
+    margin-bottom: 10px;
+    font-size: 14px;
+}
+
+
+/* CARD */
+
+.product-card {
+    position: relative;
+    border: 1px solid #ddd;
+    border-radius: 0;
+    overflow: hidden;
+}
+
+.product-image {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+
+    background-color: #ccc;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    color: #999;
+    font-size: 14px;
+}
+
+.product-card .card-body {
+    padding: 10px;
+}
+
+.product-card .card-title {
+    font-size: 15px;
+    font-weight: 400;
+    margin-bottom: 3px;
+}
+
+
+/* PRICE */
+
+.price-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.old-price {
+    color: #777;
+    text-decoration: line-through;
+    font-size: 12px;
+}
+
+.sale-price {
+    color: #f0a050;
+    font-size: 12px;
+}
+
+
+/* BUTTON */
+
+.product-buttons {
+    display: flex;
+    gap: 5px;
+    margin-top: 5px;
+}
+
+.product-buttons .btn {
+    font-size: 11px;
+    border-radius: 0;
+    padding: 4px 8px;
+}
+
+
+/* SALE */
+
+.sale-badge {
+    position: absolute;
+    top: 10px;
+    right: -30px;
+
+    width: 100px;
+
+    background-color: #ff9800;
+    color: white;
+
+    text-align: center;
+
+    transform: rotate(45deg);
+
+    font-size: 12px;
+    padding: 3px;
+
+    z-index: 2;
+}
