@@ -1,0 +1,42 @@
+.exercise8 {
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+.exercise8 .description {
+    margin-left: 35px;
+    margin-right: 35px;
+    font-size: 18px;
+    text-align: justify;
+}
+
+.exercise8-content {
+    margin-top: 20px;
+}
+
+/* Form */
+
+.booking-form {
+    border: 1px solid #777;
+    padding: 12px;
+    background-color: white;
+}
+
+.form-header h2 {
+    margin-bottom: 10px;
+}
+
+.booking-form .form-label {
+    margin-bottom: 4px;
+}
+
+.booking-form .form-text {
+    font-size: 11px;
+}
+
+.booking-button {
+    width: 100%;
+    margin-top: 15px;
+}
+
+
