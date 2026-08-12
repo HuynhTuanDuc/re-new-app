@@ -5,6 +5,7 @@ import Self from './self/Self';
 import Slot1 from './excercise/Slot1';
 import Slot2 from './excercise/Slot2';
 import Slot3 from './excercise/Slot3';
+import ZaloExcercise128 from './excercise/zaloExcercise128';
 import {useNavigate} from 'react-router-dom';
 
 function App() {
@@ -24,8 +25,8 @@ function App() {
         Slot3
       </button>
       <button
-      onClick={() => {navigate('/Self')}}>
-        Self
+      onClick ={() => {navigate('/zalo128')}}>
+        Zalo128
       </button>
       <br/>
 
@@ -34,6 +35,7 @@ function App() {
         <Route path="/self" element={<Self />} />
         <Route path="/slot2" element={<Slot2/>}/>
         <Route path="/slot3" element={<Slot3/>}/>
+        <Route path="/zalo128" element={<ZaloExcercise128/>}/>
       </Routes>
     </div>
   );
