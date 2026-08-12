@@ -1,11 +1,11 @@
 import React from "react";
 import { Container, Row, Col, Nav, Navbar, Form, Button } from "react-bootstrap";
-import "../css/zaloExcercise128.css";
+import "../css/excercise10.css";
 import { CiSearch } from "react-icons/ci";
 
 import pizza1 from "../data/pizza";
 import PizzaCard from "../component/PizzaCard";
-function ZaloExcercise128() {
+function Excercise10() {
     return (
         <div className="pizza-page">
             {/* Navbar */}
@@ -137,4 +137,4 @@ function ZaloExcercise128() {
     );
 }
 
-export default ZaloExcercise128;
+export default Excercise10;

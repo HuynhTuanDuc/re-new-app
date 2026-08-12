@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import { Button, Card } from "react-bootstrap";
 import { CardBody, CardTitle } from "react-bootstrap";
-import "../css/zaloExcercise128.css";
+import "../css/excercise10.css";
 function PizzaCard(pizza) {
     return (
         <div className="pizza-card">
